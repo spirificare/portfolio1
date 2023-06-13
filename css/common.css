@@ -5,7 +5,7 @@
    width: fit-content;
    height: 75px;
    padding: 26px 54px;
-   box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+   box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
    border-radius: 18px;
    font-size: 18px;
    font-weight: 600;
@@ -20,7 +20,7 @@
 }
 
 .button:hover {
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button_large {
@@ -32,7 +32,7 @@
 
 .color-button {
    background-color: #CDA274;
-   box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+   box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
    border-radius: 18px;
    width: fit-content;
    height: 75px;
@@ -49,13 +49,13 @@
 }
 
 .color-button:hover {
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
 
 .block-header__title {
-   font-family: "DM Serif Display";
+   font-family: "DM Serif Display, serif";
    font-size: 50px;
    line-height: 62px;
    letter-spacing: 0.02em;
@@ -74,6 +74,5 @@
 .logo {
    display: flex;
    gap: 10px;
-   max-width: 177px;
    max-width: 50px;
 }
